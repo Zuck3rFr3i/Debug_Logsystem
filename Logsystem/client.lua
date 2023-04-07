@@ -12,6 +12,7 @@ aeh("onClientDebugMessage", root, function(str_message, int_level, str_file, int
 	if str_message == "" then
 		str_message = "N/A"
 	end
+	-- bla
 	if int_level == nil then
 		int_level = "N/A"
 	end
@@ -27,3 +28,4 @@ aeh("onClientDebugMessage", root, function(str_message, int_level, str_file, int
 		str_src_name, str_message, int_level, str_file, int_line = nil, nil, nil, nil, nil
 	end
 end)
+--blub
